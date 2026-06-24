@@ -2,12 +2,18 @@ Cell 1
 # Week 3 - Deep Learning Fundamentals
 
 This notebook contains my notes and practice code on Deep Learning concepts learned during Week 3.
+
+----------------------------------------
 Cell 2
 ## What is Deep Learning?
 
 Deep Learning is a subset of Machine Learning that uses Artificial Neural Networks with multiple layers to learn complex patterns from data.
+
+----------------------------------------
 Cell 3
 print("Deep Learning helps computers learn complex patterns from large amounts of data.")
+
+----------------------------------------
 Cell 4
 ## Artificial Neural Networks (ANN)
 
@@ -18,6 +24,8 @@ A neural network consists of:
 - Output Layer
 
 Neurons in each layer process information and pass it to the next layer.
+
+----------------------------------------
 Cell 5
 input_layer = 4
 hidden_layer = 8
@@ -26,6 +34,8 @@ output_layer = 1
 print("Input Layer:", input_layer)
 print("Hidden Layer:", hidden_layer)
 print("Output Layer:", output_layer)
+
+----------------------------------------
 Cell 6
 ## Activation Functions
 
@@ -36,6 +46,8 @@ Common activation functions:
 - ReLU
 - Sigmoid
 - Tanh
+
+----------------------------------------
 Cell 7
 import numpy as np
 
@@ -45,8 +57,12 @@ relu = [max(0, value) for value in x]
 
 print("Input:", x)
 print("ReLU Output:", relu)
+
+----------------------------------------
 Cell 8
 ## Building a Simple Neural Network using TensorFlow
+
+----------------------------------------
 Cell 9
 import tensorflow as tf
 
@@ -57,6 +73,8 @@ model = tf.keras.Sequential([
 ])
 
 model.summary()
+
+----------------------------------------
 Cell 10
 ## Key Learning
 
