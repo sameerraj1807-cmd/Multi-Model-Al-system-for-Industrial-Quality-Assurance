@@ -2,6 +2,8 @@ Cell 1
 # Week 4 - Introduction to Large Language Models (LLMs)
 
 This notebook contains my learning notes and practice examples related to Large Language Models (LLMs).
+
+----------------------------------------
 Cell 2
 ## What is a Large Language Model?
 
@@ -14,8 +16,12 @@ It can:
 - Answer questions
 - Summarize information
 - Assist in problem solving
+
+----------------------------------------
 Cell 3
 print("Large Language Models can understand and generate human-like text.")
+
+----------------------------------------
 Cell 4
 ## Applications of LLMs
 
@@ -27,6 +33,8 @@ Some common applications include:
 - Summarization
 - Report Generation
 - Customer Support
+
+----------------------------------------
 Cell 5
 applications = [
     "Chatbots",
@@ -37,6 +45,8 @@ applications = [
 
 for app in applications:
     print(app)
+
+----------------------------------------
 Cell 6
 ## How LLMs Work (High Level)
 
@@ -44,12 +54,16 @@ Cell 6
 2. The model learns patterns from large datasets.
 3. It predicts the most probable next token.
 4. Responses are generated token by token.
+
+----------------------------------------
 Cell 7
 sentence = "Industrial quality inspection"
 
 tokens = sentence.split()
 
 print(tokens)
+
+----------------------------------------
 Cell 8
 ## LLMs in Industrial Quality Assurance
 
@@ -59,6 +73,8 @@ Potential applications:
 - Defect description generation
 - Maintenance assistance
 - Technical documentation support
+
+----------------------------------------
 Cell 9
 def create_report(product_id, defect):
 
@@ -80,6 +96,8 @@ def create_report(product_id, defect):
     return report
 
 print(create_report(101, "Surface Scratch"))
+
+----------------------------------------
 Cell 10
 ## Key Learning
 
