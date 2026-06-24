@@ -1,7 +1,8 @@
 Cell 1
 # Convolutional Neural Networks (CNN)
-
 This notebook explores the basics of CNNs and their applications in image-related tasks.
+
+----------------------------------------
 Cell 2
 ## Why CNNs?
 
@@ -14,6 +15,8 @@ Applications:
 - Medical Imaging
 - Defect Detection
 - Quality Inspection
+
+----------------------------------------                          
 Cell 3
 applications = [
     "Object Detection",
@@ -24,6 +27,8 @@ applications = [
 
 for app in applications:
     print(app)
+
+----------------------------------------
 Cell 4
 ## Components of CNN
 
@@ -32,6 +37,8 @@ Cell 4
 3. Pooling Layer
 4. Flatten Layer
 5. Fully Connected Layer
+
+----------------------------------------
 Cell 5
 cnn_layers = [
     "Convolution",
@@ -43,8 +50,12 @@ cnn_layers = [
 
 for layer in cnn_layers:
     print(layer)
+
+----------------------------------------
 Cell 6
 ## Sample CNN Architecture
+
+----------------------------------------
 Cell 7
 import tensorflow as tf
 
@@ -74,6 +85,8 @@ cnn_model = tf.keras.Sequential([
 ])
 
 cnn_model.summary()
+
+----------------------------------------
 Cell 8
 ## Industrial Quality Assurance
 
@@ -85,6 +98,8 @@ CNNs can be used to analyze product images and automatically detect defects such
 - Missing Components
 
 This makes them highly useful in industrial quality inspection systems.
+
+----------------------------------------
 Cell 9
 product_images = [
     "Image_1",
