@@ -2,10 +2,14 @@ Cell 1
 # Week 2 - Machine Learning Basics
 
 In this notebook, I explore fundamental Machine Learning concepts learned during Week 2 of the Summer of Code project.
+
+----------------------------------------
 Cell 2 
 ## What is Machine Learning?
 
 Machine Learning is a branch of Artificial Intelligence that enables systems to learn patterns from data and make predictions without being explicitly programmed.
+
+----------------------------------------
 Cell 3
 print("Machine Learning allows computers to learn from data.")
 Cell 4
