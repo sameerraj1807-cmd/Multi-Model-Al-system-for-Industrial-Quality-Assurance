@@ -143,5 +143,3 @@ SOC/
 ```
 
 ---
-
-*Submitted as Midterm Progress Report | Seasons of Code, IIT Bombay*
