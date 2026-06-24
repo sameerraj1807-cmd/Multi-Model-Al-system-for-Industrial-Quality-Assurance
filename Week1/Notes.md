@@ -267,4 +267,3 @@ During Week 1, I learned:
 - Loops
 - Functions
 - Basic concepts of Machine Learning
-- 
