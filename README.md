@@ -132,14 +132,22 @@ The first four weeks are dedicated to building the foundational knowledge requir
 ```
 SOC/
 ├── README.md                          ← This file (Midterm Report)
-├── Week1/
-│   └── week1_python_basics.ipynb
-├── Week2/
-│   └── week2_ml_basics.ipynb
-├── Week3/
-│   └── week3_deep_learning_cnn.ipynb
-└── Week4/
-    └── week4_llm_intro.ipynb
+Week1_Python_Basics/
+├── Python_Basics.py
+├── Functions_Practice.py
+└── Notes.md
+Week2_ML_Basics/
+├── ML_Fundamentals.py
+├── Pandas_Practice.py
+└── Notes.md
+Week3_Deep_Learning_CNN/
+├── Neural_Network_Basics.py
+├── CNN_Concepts.py
+└── Notes.md
+Week4_LLM/
+├── Intro_to_LLM.py
+├── Prompt_Engineering.py
+└── Notes.md
 ```
 
 ---
