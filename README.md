@@ -127,27 +127,270 @@ The first four weeks are dedicated to building the foundational knowledge requir
 
 ---
 
+### Week 5 - Exploratory Data Analysis (EDA) & Data Cleaning 📊
+
+**Goals Completed:**
+- ✅ Learned the fundamentals of Exploratory Data Analysis (EDA)
+- ✅ Practiced data cleaning techniques using Python
+- ✅ Understood the importance of data preprocessing before model training
+- ✅ Gained familiarity with visualization and statistical analysis tools
+
+**Key Concepts Covered:**
+- **Exploratory Data Analysis (EDA):**
+  - Understanding dataset structure
+  - Identifying feature distributions
+  - Detecting outliers and anomalies
+  - Correlation analysis
+  - Data visualization techniques
+- **Data Cleaning:**
+  - Handling missing values
+  - Removing duplicates
+  - Data formatting and transformation
+  - Feature consistency checks
+  - Noise reduction
+- **Visualization Tools:**
+  - Matplotlib
+  - Pandas plotting utilities
+  - Histograms
+  - Scatter plots
+  - Box plots
+- **Connection to Project:**
+  - Proper data analysis and cleaning are critical before training industrial defect detection models.
+  - Understanding dataset quality directly impacts the performance of downstream Computer Vision systems.
+
+**Resources Used:**
+- Exploratory Data Analysis (EDA) Cheat Sheet
+- Data Cleaning Colab Tutorial
+
+---
+
+### Week 6 - Computer Vision Model Development (YOLOv8) 👁️
+
+**Goals Completed:**
+- ✅ Trained a YOLOv8 model on the NEU Surface Defect Dataset
+- ✅ Learned the object detection workflow
+- ✅ Evaluated model performance using industry-standard metrics
+- ✅ Generated prediction samples and confusion matrices
+- ✅ Exported the final trained model (`best.pt`)
+
+**Key Concepts Covered:**
+- **Object Detection Fundamentals:**
+  - Bounding Boxes
+  - Class Labels
+  - Confidence Scores
+  - Intersection over Union (IoU)
+- **YOLOv8 Architecture:**
+  - One-stage object detection
+  - Real-time inference
+  - Detection head and feature extraction
+- **Model Training Pipeline:**
+  - Dataset preparation
+  - Annotation formats
+  - Training configuration
+  - Hyperparameter selection
+  - Validation and testing
+- **Evaluation Metrics:**
+  - Precision
+  - Recall
+  - mAP@50
+  - mAP@50-95
+  - Confusion Matrix Analysis
+- **Practical Implementation:**
+  - Trained YOLOv8 on steel surface defect images
+  - Generated prediction samples
+  - Exported final model weights (`best.pt`)
+- **Connection to Project:**
+  - The trained YOLOv8 model serves as the primary vision module responsible for identifying surface defects in steel products.
+
+**Resources Used:**
+- Ultralytics YOLOv8 Documentation
+- NEU Surface Defect Dataset (Kaggle)
+
+---
+
+### Week 7 - LLM Integration & Report Generation 💬
+
+**Goals Completed:**
+- ✅ Installed and configured Ollama locally
+- ✅ Integrated Llama 3.2 into the project workflow
+- ✅ Connected Computer Vision outputs with a Large Language Model
+- ✅ Generated automated inspection reports from detected defects
+
+**Key Concepts Covered:**
+- **Local LLM Deployment:**
+  - Ollama installation and configuration
+  - Running Llama 3.2 locally
+  - Model management and inference
+- **Prompt Engineering:**
+  - Designing prompts for industrial reporting
+  - Structured report generation
+  - Context-aware response generation
+- **Vision-Language Integration:**
+  - Converting defect detections into textual descriptions
+  - Passing defect information to LLMs
+  - Generating actionable recommendations
+- **Practical Implementation:**
+  - Extracted detected defect classes from YOLOv8 outputs
+  - Passed defect information to Llama 3.2
+  - Generated professional inspection reports including:
+    - Summary
+    - Severity Assessment
+    - Recommended Actions
+- **Connection to Project:**
+  - The LLM acts as the intelligence layer that transforms raw detections into human-readable industrial quality reports.
+
+**Resources Used:**
+- Ollama Documentation
+- Llama 3.2 Model Documentation
+
+---
+
+### Week 8 - Deployment & Final Multi-Modal System 🚀
+
+**Goals Completed:**
+- ✅ Built a Streamlit web application
+- ✅ Integrated YOLOv8 and Llama 3.2 into a single workflow
+- ✅ Developed a complete AI-powered industrial quality assurance system
+- ✅ Tested end-to-end functionality
+
+**Key Concepts Covered:**
+- **Streamlit Development:**
+  - Interactive web interfaces
+  - File upload components
+  - Dynamic content rendering
+  - Real-time user interaction
+- **System Integration:**
+  - Image upload
+  - Defect detection
+  - Defect processing
+  - Report generation
+  - User-facing output
+- **Multi-Modal AI Workflow:**
+  - Vision module (YOLOv8)
+  - Language module (Llama 3.2)
+  - Fusion of visual and textual information
+- **Practical Implementation:**
+  - Users enter inspection details
+  - Upload steel surface images
+  - YOLOv8 identifies defects
+  - Llama 3.2 generates professional reports
+  - Results displayed through Streamlit
+- **Connection to Project:**
+  - This completes the full Multi-Modal AI pipeline envisioned at the start of the project by combining Computer Vision and Language Models into a unified industrial quality assurance system.
+
+**Resources Used:**
+- Streamlit Documentation
+- Ollama Documentation
+- Ultralytics YOLOv8 Documentation
+
+---
+
+## 🏭 Final System Workflow
+
+The completed system follows the workflow below:
+
+1. User enters inspection details
+   - Inspector Name
+   - Project Location
+   - Project ID
+
+2. User uploads a steel surface image
+
+3. YOLOv8 processes the image and detects defects
+
+4. Detected defects are extracted and summarized
+
+5. Defect information is passed to Llama 3.2 through Ollama
+
+6. Llama generates a professional inspection report including:
+   - Inspection Date
+   - Detected Defects
+   - Summary
+   - Severity Assessment
+   - Recommended Actions
+
+7. Results are displayed through the Streamlit web interface
+
+---
+
+## 🎯 Final Project Outcome
+
+Successfully developed a **Multi-Modal AI System for Industrial Quality Assurance** capable of:
+
+- Detecting steel surface defects using Computer Vision (YOLOv8)
+- Generating automated inspection reports using Large Language Models (Llama 3.2)
+- Providing an interactive user interface through Streamlit
+- Demonstrating practical integration of Vision AI and Generative AI for industrial applications
+
+This project successfully combines the knowledge gained throughout all eight weeks into a complete end-to-end AI solution.
+
+
 ## 📁 Repository Structure
 
 ```
 SOC/
-├── README.md                          ← This file (Midterm Report)
-Week1_Python_Basics/
-├── Python_Basics.py
-├── Functions_Practice.py
-└── Notes.md
-Week2_ML_Basics/
-├── ML_Fundamentals.py
-├── Pandas_Practice.py
-└── Notes.md
-Week3_Deep_Learning_CNN/
-├── Neural_Network_Basics.py
-├── CNN_Concepts.py
-└── Notes.md
-Week4_LLM/
-├── Intro_to_LLM.py
-├── Prompt_Engineering.py
-└── Notes.md
+│
+├── README.md                                   ← Final Project Report (Week 1–8)
+│
+├── Week1_Python_Basics/
+│   ├── Python_Basics.py
+│   ├── Functions_Practice.py
+│   └── Notes.md
+│
+├── Week2_ML_Basics/
+│   ├── ML_Fundamentals.py
+│   ├── Pandas_Practice.py
+│   └── Notes.md
+│
+├── Week3_Deep_Learning_CNN/
+│   ├── Neural_Network_Basics.py
+│   ├── CNN_Concepts.py
+│   └── Notes.md
+│
+├── Week4_LLM/
+│   ├── Intro_to_LLM.py
+│   ├── Prompt_Engineering.py
+│   └── Notes.md
+│
+├── Week-5-6/
+│   ├── README.md
+│   ├── code.ipynb
+│   ├── confusion_matrix.png
+│   ├── confusion_matrix_normalized.png
+│   ├── metrics.txt
+│   ├── training_curves.png
+│   ├── val_batch0_labels.jpg
+│   └── val_batch0_pred.jpg
+│
+└── Week-7-8/
+    ├── README.md
+    ├── app.py
+    ├── combined_test.py
+    ├── report_test.py
+    ├── requirements.txt
+    ├── test_model.py
+    └── train_batch0.jpg
+```
+
+### Folder Description
+
+#### Week 5–6
+Contains the Computer Vision development phase:
+- Dataset exploration and preprocessing
+- YOLOv8 training notebook
+- Training metrics and evaluation results
+- Confusion matrices
+- Prediction samples
+- Model performance analysis
+
+#### Week 7–8
+Contains the complete Multi-Modal AI system:
+- YOLOv8 defect detection pipeline
+- Llama 3.2 integration through Ollama
+- AI-based inspection report generation
+- Streamlit web application
+- Testing scripts and deployment files
+
 ```
 
 ---
