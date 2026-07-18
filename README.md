@@ -1,5 +1,5 @@
 # Multi-Modal AI System for Industrial Quality Assurance
-### Seasons of Code (SoC) - IIT Bombay | Midterm Progress Report
+### Seasons of Code (SoC) - IIT Bombay | Final Report
 
 ---
 
