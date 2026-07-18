@@ -8,7 +8,7 @@
 - **Program:** Seasons of Code, IIT Bombay
 - **Year:** Fresher (to-be Sophomore)
 - **Project Title:** Multi-Modal AI System for Industrial Quality Assurance
-- **Report Period:** Week 1 – Week 4 (Midterm)
+- **Report Period:** Week 1 – Week 8 (Midterm & Endterm)
 
 ---
 
