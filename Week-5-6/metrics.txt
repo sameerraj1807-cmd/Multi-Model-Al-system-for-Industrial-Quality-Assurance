@@ -1,0 +1,6 @@
+Model: YOLOv8m
+
+Precision: 0.75
+Recall: 0.76
+mAP@50: 0.75
+mAP@50-95: 0.44
