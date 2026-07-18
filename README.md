@@ -287,6 +287,20 @@ Building upon these foundations, Weeks 5–8 focused on the practical developmen
 
 ---
 
+## 🔑 Key Takeaways (continued)
+
+6. **Data quality directly impacts model performance** - effective exploratory data analysis and data cleaning are essential before training any AI model. Understanding dataset distributions, class balance, and annotation quality helps prevent poor model performance and unreliable predictions.
+
+7. **Object detection extends beyond classification** - unlike traditional image classification, industrial inspection requires identifying the location and type of defects simultaneously. YOLOv8 proved highly effective for real-time defect detection through bounding box localization and multi-class classification.
+
+8. **Model evaluation is as important as model training** - metrics such as precision, recall, mAP, confusion matrices, and validation predictions provide critical insights into model strengths, weaknesses, and real-world reliability.
+
+9. **LLMs transform detections into actionable insights** - integrating Llama 3.2 with the defect detection pipeline demonstrated how language models can convert technical model outputs into structured inspection reports that are easier for engineers and quality assurance teams to interpret and act upon.
+
+10. **End-to-end integration creates real-world value** - the combination of YOLOv8, Llama 3.2, Ollama, and Streamlit highlighted that successful AI systems require more than accurate models; they require seamless integration, usability, and deployment to solve practical industrial problems.
+
+---
+
 ## 🏭 Final System Workflow
 
 The completed system follows the workflow below:
