@@ -408,5 +408,3 @@ Contains the complete Multi-Modal AI system:
 - Testing scripts and deployment files
 
 ```
-
----
