@@ -176,3 +176,11 @@ Recommended Actions:
 - Verify material quality
 - Monitor production line for recurring defects
 - Perform final quality verification before shipment
+
+## Google Drive Links:
+
+SOC-Endterm_submission_25b2458
+<[Google Drive Link](https://drive.google.com/drive/folders/1VIx8bI-xFk7EIHRS3wMhcOA9DamqCEKI?usp=sharing)>
+
+soc-demo video_25b2458.mp4
+<[Google Drive Link](https://drive.google.com/file/d/1E1qhlRoAFlkmlcdCDO-pR04vXPni1KMy/view?usp=sharing)>
