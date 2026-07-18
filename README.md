@@ -16,7 +16,9 @@
 
 This project aims to build a **Multi-Modal AI system** capable of performing **industrial quality assurance** - detecting defects, anomalies, and quality issues in manufactured products using a combination of **computer vision (CNNs)** and **language models (LLMs)**. The system will take image input (camera feeds from production lines) and textual/structured sensor data, process them through separate modalities, and fuse the outputs to make quality decisions.
 
-The first four weeks are dedicated to building the foundational knowledge required to undertake this project - covering Python, Machine Learning, Deep Learning, CNNs, and Large Language Models.
+The first four weeks were dedicated to building the foundational knowledge required to undertake this project - covering Python, Machine Learning, Deep Learning, CNNs, and Large Language Models.
+
+Building upon these foundations, Weeks 5–8 focused on the practical development and deployment of the system. A YOLOv8-based Computer Vision model was trained for steel surface defect detection using the NEU Surface Defect Dataset. The detected defects were then integrated with a locally deployed Llama 3.2 Large Language Model through Ollama to automatically generate professional inspection reports containing defect summaries, severity assessments, and recommended actions. Finally, the complete multi-modal pipeline was deployed as an interactive Streamlit web application, enabling users to upload steel surface images, detect defects in real time, and receive AI-generated inspection reports through a user-friendly interface.
 
 ---
 
