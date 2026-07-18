@@ -1,0 +1,6 @@
+streamlit
+ultralytics
+ollama
+torch
+opencv-python
+pillow
